@@ -1,0 +1,60 @@
+
+/* Começo do css do MENU */
+
+.body {
+  background-color: black;
+}
+
+.header {
+    width: 1349px;
+    position: fixed;
+    top: 0;
+    height:52px;
+    z-index: 9900;
+    text-align: justify;
+    background-color: black;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+}
+
+.logo {
+    margin-left:10px;
+    margin-top: 2px;
+    width: 200px;
+    height: 50px;
+    float: left;
+    background: url(Logo.JPG) center center/180px no-repeat;
+}
+
+.menu ul {
+    margin-right: 50px;
+}
+
+.menu ul li {
+    display: inline;  
+    float: right;
+}
+
+menu a {
+    float: left;
+}
+    
+.menu ul li a {
+  margin-top: -8px;
+    display: block;
+    color: black;
+    padding: 10px 10px ; 
+    text-decoration: none;
+}
+
+/* Fim do css do MENU */
+
+.teste {
+  margin-top: -20px
+}
