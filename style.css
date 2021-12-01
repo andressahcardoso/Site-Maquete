@@ -1,0 +1,176 @@
+
+/* Começo do css do MENU */
+
+.body {
+  background-color: black;
+}
+
+.header {
+    width: 1349px;
+    position: fixed;
+    top: 0;
+    height:52px;
+    z-index: 9900;
+    text-align: justify;
+    background-color: black;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+}
+
+.logo {
+    margin-left:10px;
+    margin-top: 2px;
+    width: 200px;
+    height: 50px;
+    float: left;
+    background: url(img/Logo.JPG) center center/180px no-repeat;
+}
+
+.menu ul {
+    margin-right: 50px;
+}
+
+.menu ul li {
+    display: inline;  
+    float: right;
+}
+
+menu a {
+    float: left;
+}
+    
+.menu ul li a {
+  margin-top: -8px;
+    display: block;
+    color: black;
+    padding: 10px 10px ; 
+    text-decoration: none;
+}
+
+/* Fim do css do MENU */
+
+
+.teste {
+  margin-top: -20px
+}
+
+
+/*INÍCIO | CSS - Hidrelétrica */
+
+.hr {
+    width: 100%;
+    border-color: rgb(122, 122, 255);
+}
+
+.h2 {
+    color: rgb(122, 122, 255);
+    text-align: center;
+}
+
+.h3 {
+    color: rgb(122, 122, 255); 
+}
+
+.Paragrafo {
+   
+    text-decoration: none;
+    text-align: justify;
+}
+
+.Paragrafo2 {
+    margin-top: -15px;
+    margin-left: -545px;
+   
+    text-align: justify;
+}
+
+.Referencias {
+    text-align: right;
+}
+
+.h3-Link {
+    color: rgb(122, 122, 255);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Paragrafo_Link {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.Foto {
+    width: 450px;
+    height: 300px;
+}
+
+.dois {
+    width: 50%;
+    height: 50%; 
+}
+
+.dois1 {
+    width: 50%;
+    height: 50%;
+float: left;
+}
+
+.dois2 {
+    width: 50%;
+    height: 50%;
+}
+
+.doisfoto {
+    width: 30%;
+    height: 30%; 
+}
+
+.doisfoto1 {
+    width: 28%;
+    height: 28%;   
+}
+
+.doisfoto2 {
+    width: 25%;
+    height: 25%; 
+    float: left;
+    margin-left: -4.6%; 
+}
+
+
+.doisfoto img {
+    float: left;
+}
+
+.coluna {   
+    float: center;
+    padding: 10%;
+    padding-top: 2%;
+    position: relative;
+}
+
+.coluna {   
+    float: left;
+    padding: 0 5%;
+    position: relative;  
+}
+
+/* FIM | CSS - Hidrelétrica */
+
+
+.center {
+    text-align: center;
+}
+
+.Rodape{
+    background-color: rgb(238, 242, 255);
+    margin-top: 30%;
+}
+
