@@ -1,0 +1,324 @@
+
+/* Começo do css do MENU */
+
+.body {
+  background-color: black;
+}
+
+
+/* INÍCIO | Menu */
+
+.header {
+    width: 1349px;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    z-index: 10;
+    background-color: black;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    z-index: 9;
+}
+
+.btmenu {
+    color: black;
+    visibility: hidden;
+}
+
+.btclose {
+    color: black;
+    visibility: hidden;
+}
+
+/* FIM | CSS do Menu */
+
+.logo {
+    margin-left:10px;
+    margin-top: -32px;
+    width: 200px;
+    height: 50px;
+    float: left;
+    background: url(img/Logo.JPG) center center/180px no-repeat;
+    z-index: 10;
+}
+
+.menu ul {
+    margin-right: 50px;
+    z-index: 10;
+}
+
+.menu ul li {
+    display: inline;  
+    float: right;
+    z-index: 10;
+    margin-top: -20px;
+}
+
+menu a {
+    float: left;
+    z-index: 10;
+}
+    
+.menu ul li a {
+    margin-top: -8px;
+    display: block;
+    color: black;
+    padding: 10px 10px ; 
+    text-decoration: none;
+    z-index: 10;
+}
+
+/* INÍCIO | Organização menu de Abrir */
+
+.voltar {
+    visibility: hidden;
+}
+
+.voltar2 {
+    visibility: hidden;
+}
+
+/* FIM | Organização menu de Abrir */
+
+/* FIM | CSS do MENU */
+
+
+.miro {
+    margin-top: -20px  /* Tamanho imagem do MIRO */
+}
+
+.Links {
+    color: black;
+}
+
+.hr {
+    width: 100%;
+    border-color: rgb(122, 122, 255);
+}
+
+.h2 {
+    color: rgb(122, 122, 255);
+    text-align: center;
+}
+
+.h3 {
+    color: rgb(122, 122, 255); 
+}
+
+.Paragrafo {
+    text-decoration: none;
+    text-align: justify;
+}
+
+.Paragrafo2 {
+    margin-top: -15px;
+    margin-left: -545px;
+    text-align: justify;
+}
+
+.Referencias {
+    text-align: right;
+}
+
+.h3-Link {
+    color: rgb(122, 122, 255);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Paragrafo_Link {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Foto {
+    width: 450px;
+    height: 300px;
+}
+
+/* INÍCIO | CSS das imagens */
+
+.dois {
+    width: 50%;
+    height: 50%; 
+}
+
+.doisfoto {
+    width: 30%;
+    height: 30%; 
+}
+
+.doisfoto img {
+    float: left;
+}
+
+.dois1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.doisfoto1 {
+    width: 28%;
+    height: 28%;   
+}
+
+.dois2 {
+    width: 50%;
+    height: 50%;
+}
+
+.doisfoto2 {
+    width: 25%;
+    height: 25%; 
+    float: left;
+    margin-left: -4.6%; 
+}
+
+/* FIM | CSS das imagens */
+
+.coluna {   
+    float: center;
+    padding: 10%;
+    padding-top: 2%;
+    position: relative;
+}
+
+.coluna {   
+    float: left;
+    padding: 0 5%;
+    position: relative;  
+}
+
+.center {
+    text-align: center;
+}
+
+.Rodape{
+    background-color: rgb(238, 242, 255);
+    margin-top: 30%;
+}
+
+
+
+@media all and (max-width: 768px) {
+
+    
+
+    .h2 {
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;  
+    }
+
+    .hr {
+        width: 100%;  
+    }
+
+    .voltar {
+        visibility: visible;
+        margin-top: 100px;
+        float: right;
+    }
+
+    .miro  {
+        margin-top: 20px;
+        width: 100%;
+        height: 300px; 
+    }
+
+    .logo {
+        margin-left:1px;
+        margin-top: 0px;
+        width: 200px;
+        height: 50px;
+        float: left;
+        background: url(img/Logo.JPG) center center/180px no-repeat;
+        z-index: 10;
+    }
+
+    .btmenu {
+        visibility: visible;
+        width: 56px;
+        height: 56px;
+        float: right;
+        border-radius: 56px;
+        color: white;
+        text-align: center;
+        font-size: 1.5em;
+        cursor: pointer;
+        z-index: 9;
+    }
+
+    .menu {
+        visibility: visible;
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: white;
+        text-align: center;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+
+    .btclose {
+        visibility: visible;
+        font-size: 1.5em;
+        color: black;
+        float: right;
+        cursor: pointer;
+        margin: 2% 3% 0% 0%;
+        z-index: 9;
+        margin-left: -20px;
+    }
+
+    .menu ul {
+        visibility: visible;
+        width: 60%;
+        float: left;
+        text-align: center;
+        margin-top: 40px;
+        visibility: hidden;  
+    }
+
+    .menu ul li {
+        visibility: visible;
+        padding: 4%;
+        float: left;  
+    }
+
+    .menu ul li a {
+        visibility: visible;
+        font-size: 1.5em;
+        color: black;
+        float: left;
+        margin-left: 12px; 
+    }
+  
+    .Foto{
+        width: 280px;
+        height: 180px;
+    }
+
+    .coluna{
+        display: block;   
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+}
+
+
+
+
+/* Andressa Hensel Cardoso */
