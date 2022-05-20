@@ -8,7 +8,7 @@
 
 <hr>
 
-<h4> Autoras: </h4>
+<h4> Autores: </h4>
 
 <p> ◻️	Andressa Hensel Cardoso <br> ◻️	Daniel Oliveira dos Santos Chini <br> ◻️	Juliana Prade Gomes <br> ◻️	Manoela Soares Matté  <br> ◻️	Maria Alice Cunha Maciel </p>
 
